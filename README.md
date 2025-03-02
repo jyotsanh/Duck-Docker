@@ -1,7 +1,8 @@
 # Duck-Docker
 some commands i noted down for you know, when i need them 🐳
 
-```FROM
+```
+FROM
 WORK
 COPY
 RUN
@@ -19,7 +20,7 @@ CMD
     -  `.` docker will look for Dockerfile in current directory.
 
 -   ```bash 
-    docker run -d -p 8000:8002 myapi
+    docker run -d -p 8002:8002 myapi
     ```
     - `docker build` : command to build a docker image
     - ``-d`` detached mode, means run in the background
