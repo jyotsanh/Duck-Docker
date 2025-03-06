@@ -1,3 +1,4 @@
+![meme](./img/docker.png)
 # Duck-Docker
 some commands i noted down for you know, when i need them 🐳
 
@@ -113,3 +114,5 @@ CMD
    ```bash
    sudo docker rmi [Image_id]
    ```
+
+![meme2](./img/meme2.webp)
