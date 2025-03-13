@@ -242,6 +242,7 @@ In the next steps, we’ll see how to set up Docker Compose for our MERN project
     - To stop the container from docker-compose: ```sudo docker-compose down```
     - To restart the container fron docker-compose: ```sudo docker-compose restart```
     - To stop a specific service from docker-compose: ```sudo docker-compose stop backend```
+    - To re-run the docker-compose with no cache use ```sudo docker-compose build --no-cache```
   -------
 
 ![meme2](./img/meme2.webp)
