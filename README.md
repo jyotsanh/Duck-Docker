@@ -75,8 +75,20 @@ CMD
 - ```bash
     docker rmi [IMAGE_ID]
   ```
+  - shows docker images with specific id
+- ```bash
+    docker images -f "dangling=true"
+  ```
 
-  - deletes the images
+  - shows all dangling docker images
+- ```bash
+    docker image prune -f
+  ```
+  - deletes all the dangling docker images
+- ```bash
+    sudo docker system df
+  ```
+  - Total Disk Usage by Docker
 
 # Docker Commands Guide
 
