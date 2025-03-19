@@ -257,4 +257,10 @@ In the next steps, we’ll see how to set up Docker Compose for our MERN project
     - To re-run the docker-compose with no cache use ```sudo docker-compose build --no-cache```
   -------
 
+- Small Tips in developoing:
+  - when new changes is pushed to remote repo and we need to pull that changes in our running docker where old docker is runnning
+  - `git pull origin main`
+  - `sudo docker-compose down`
+  - `sudo docker-compose up -d`
+
 ![meme2](./img/meme2.webp)
