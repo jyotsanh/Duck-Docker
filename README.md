@@ -75,6 +75,10 @@ CMD
 - ```bash
     docker rmi [IMAGE_ID]
   ```
+  - force delete the image id
+- ```bash
+    docker rmi -f [IMAGE_ID]
+  ```
   - shows docker images with specific id
 - ```bash
     docker images -f "dangling=true"
